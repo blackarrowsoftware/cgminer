@@ -32,7 +32,9 @@ static void minion_detect(__maybe_unused bool hotplug)
 #define ENABLE_INT_NONO 0
 
 // Define this to 1 if compiling on RockChip and not on RPi
-#define MINION_ROCKCHIP 0
+// Modify for RockChip
+// #define MINION_ROCKCHIP 0
+#define MINION_ROCKCHIP 1
 
 // The code is always in - this just decides if it does it
 static bool minreread = false;
