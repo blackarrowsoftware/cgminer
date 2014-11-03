@@ -590,10 +590,10 @@ typedef struct hist_item {
 // How much history to keep (5min)
 #define MINION_HISTORY_s 300
 // History required to decide a reset at MINION_FREQ_DEF Mhz
-#define MINION_RESET_s 10
+#define MINION_RESET_s 5
 // How many times to reset before changing Freq
 // This doesn't include the secondary higher % check
-#define MINION_RESET_COUNT 6
+#define MINION_RESET_COUNT 4
 
 // To enable the 2nd check
 static bool second_check = true;
